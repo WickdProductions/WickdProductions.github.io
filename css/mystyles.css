@@ -1,0 +1,75 @@
+#sharemain{
+	float:right;
+	margin-top:15px;
+}
+
+.brand{
+	position:fixed;
+	z-index:1031;
+	margin-top: 5px;
+}
+
+.jumbotron{
+	background-image:url(../images/backgroundheader.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	color:white;
+	text-align:center;
+}
+
+.jumbotron p{
+	font-family:Arcade;
+	font-size:36px;
+}
+
+.spaceh{
+	margin-top:180px;
+}
+
+.spacep{
+	margin-bottom:280px;
+}
+
+.navbar-inverse {
+    background-color: #000;
+    border-color: #000000;
+    opacity: 0.8;
+}
+
+.navbar{
+    min-height: 56px;
+}
+
+.lowerleftimg{
+	float:left;
+}
+
+.lowerrightimg{
+	float:right;
+}
+
+.lowermidimg{
+	position:absolute;
+	opacity:0.5;
+}
+
+.biocontent{
+	text-align:center;
+}
+
+li.intro:hover{
+	border-bottom: 3px solid #EF7E80;
+}
+
+li.bio:hover{
+	border-bottom: 3px solid #E8B771;
+}
+
+li.portfolio:hover{
+	border-bottom: 3px solid #B8ED8D;
+}
+
+li.contact:hover{
+	border-bottom: 3px solid #50EFBB;
+}
